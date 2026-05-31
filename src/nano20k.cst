@@ -1,0 +1,28 @@
+// Clock de 27 MHz (oscilador onboard)
+IO_LOC "clk"   4;
+IO_PORT "clk"  IO_TYPE=LVCMOS33;
+IO_LOC "reset"  88;
+IO_PORT "reset" IO_TYPE=LVCMOS33;
+
+// LED0: HIT
+IO_LOC "led_hit" 15;
+IO_PORT "led_hit" IO_TYPE=LVCMOS33;
+
+// LED1 LED2: apagados
+IO_LOC "led_unused1" 16;
+IO_PORT "led_unused1" IO_TYPE=LVCMOS33;
+
+IO_LOC "led_unused2" 17;
+IO_PORT "led_unused2" IO_TYPE=LVCMOS33;
+
+// LED3: ancora cache
+IO_LOC "led_mid" 18;
+IO_PORT "led_mid" IO_TYPE=LVCMOS33;
+
+// LED4: MISS
+IO_LOC "led_miss" 19;
+IO_PORT "led_miss" IO_TYPE=LVCMOS33;
+
+// LED5: ancora (quase sempre apagado)
+IO_LOC "led_unused5" 20;
+IO_PORT "led_unused5" IO_TYPE=LVCMOS33;
