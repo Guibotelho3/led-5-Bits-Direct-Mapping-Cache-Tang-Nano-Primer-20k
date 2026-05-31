@@ -1,0 +1,68 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/Mtag.v",
+  "InstLine" : 2,
+  "InstName" : "Mtag",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/Mtag.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "Mtag"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/comparator.v",
+  "InstLine" : 3,
+  "InstName" : "comparator",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/comparator.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "comparator"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/counter.v",
+  "InstLine" : 3,
+  "InstName" : "counter",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/counter.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "counter"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/main.v",
+  "InstLine" : 2,
+  "InstName" : "cache_read_only",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/main.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "cache_read_only",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/main.v",
+    "InstLine" : 113,
+    "InstName" : "V",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/valid.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "valid"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/main.v",
+    "InstLine" : 133,
+    "InstName" : "dcache",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/datacache.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "datacache"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/main.v",
+    "InstLine" : 136,
+    "InstName" : "R",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/ram.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "ram"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/main.v",
+    "InstLine" : 139,
+    "InstName" : "DataMux",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/mux.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "mux"
+   }
+  ]
+ }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="cache_read_only" Register="51" Lut="97" T_Register="57(51)" T_Lut="118(97)" T_Ssram="3(0)">
+ <SubModule name="V" Register="6" Lut="9" Ssram="1" T_Register="6(6)" T_Lut="9(9)" T_Ssram="1(1)"/>
+ <SubModule name="dcache" Ssram="2" T_Ssram="2(2)"/>
+ <SubModule name="R" Lut="11" T_Lut="11(11)"/>
+ <SubModule name="DataMux" Lut="1" T_Lut="1(1)"/>
+</Module>

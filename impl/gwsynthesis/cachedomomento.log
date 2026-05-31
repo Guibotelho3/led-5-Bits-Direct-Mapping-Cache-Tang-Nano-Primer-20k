@@ -1,0 +1,39 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\Mtag.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\comparator.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\counter.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\datacache.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\main.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\mux.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\ram.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\valid.v'
+Compiling module 'cache_read_only'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\main.v":2)
+Compiling module 'valid'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\valid.v":3)
+Extracting RAM for identifier 'memory'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\valid.v":13)
+Compiling module 'datacache(bitsBlock=1,cacheSize=8)'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\datacache.v":3)
+Extracting RAM for identifier 'memory'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\datacache.v":15)
+Compiling module 'ram(bitsRam=5,ramSize=32)'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\ram.v":2)
+Extracting RAM for identifier 'memory'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\ram.v":13)
+WARN  (EX2412) : Illegal entry at C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/ram_init.hex:33 for index 32 in range [0:31]("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\ram.v":16)
+Compiling module 'mux(bitsBlock=1)'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\mux.v":3)
+NOTE  (EX0101) : Current top module is "cache_read_only"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\impl\gwsynthesis\cachedomomento.vg" completed
+[100%] Generate report file "C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\impl\gwsynthesis\cachedomomento_syn.rpt.html" completed
+GowinSynthesis finish

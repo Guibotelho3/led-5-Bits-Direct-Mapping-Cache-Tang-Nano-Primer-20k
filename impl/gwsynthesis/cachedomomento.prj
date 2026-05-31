@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88" speed="8" partNumber="GW2AR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\Mtag.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\comparator.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\counter.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\datacache.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\main.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\mux.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\ram.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\src\valid.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\cachedomomento\impl\gwsynthesis\cachedomomento.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="cache_read_only"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

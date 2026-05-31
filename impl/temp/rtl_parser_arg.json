@@ -1,0 +1,45 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/Mtag.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/comparator.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/counter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/datacache.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/main.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/mux.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/ram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/src/valid.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/cachedomomento/impl/temp/rtl_parser.result",
+ "Top" : "cache_read_only",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
